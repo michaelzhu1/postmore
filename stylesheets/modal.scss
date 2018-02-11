@@ -1,0 +1,164 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 9998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 50%;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 2rem 4rem rgba(black, 0.2);
+  border-radius: 3px;
+  overflow: hidden;
+  z-index: 9999;
+  height: 80vh;
+}
+
+.btn-color {
+  width: 28px;
+  height: 28px;
+  border-radius: 3px;
+  outline-offset: 0;
+  margin: 5px;
+}
+
+.modal-form {
+  margin: 45px;
+  height: 65vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.btn-color-red {
+  background-color: rgb(246, 150, 161);
+}
+.btn-color-green {
+  background-color: rgb(168, 233, 199);
+}
+.btn-color-orange {
+  background-color: rgb(250, 212, 159);
+}
+.btn-color-blue {
+  background-color: rgb(159, 191, 249);
+}
+
+.color-outline {
+  outline: none;
+  border: 1px solid gray;
+  box-shadow: 0 0 3px 2px rgb(58, 62, 79);
+}
+
+.title-field {
+  outline: none;
+  border: none;
+  min-height: 80%;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.body-field {
+  font-size: 25px;
+  width: 100%;
+  resize: none;
+  outline: none;
+  overflow: auto;
+  border: none;
+  height: 300px;
+  color: gray;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+::placeholder {
+  color: #d9d3d3;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.add-btn-modal {
+  color: white;
+  text-transform: capitalize;
+  width: 140px;
+  height: 62px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-btn-modal {
+  cursor: pointer;
+  color: white;
+  width: 140px;
+  height: 62px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.modal-bot {
+  height: 40px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rbg(248, 249, 248);
+}
+
+.delete-modal {
+  color: gray;
+  width: 555px;
+  height: 343px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.delete-top {
+  height: 80px;
+  display: flex;
+  font-size: 40px;
+}
+
+.delete-mid {
+  display: flex;
+  font-size: 20px;
+}
+
+.delete-bot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  height: 20px;
+}
+
+.delete-btn {
+  background-color: rgb(87, 184, 192);
+  color: white;
+  width: 140px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-cancel {
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 140px;
+  height: 60px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
