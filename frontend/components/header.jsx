@@ -7,6 +7,7 @@ class Header extends React.Component {
   render() {
     return (
       <header className="header">
+        <div className="header-title">Postmore</div>
         <button
           onClick={() => this.props.updateModal(true, "add", null)}
           className="add-btn"
